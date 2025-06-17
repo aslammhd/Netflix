@@ -1,0 +1,21 @@
+.trending {
+  padding: 40px;
+}
+
+.list {
+  display: flex;
+  gap: 20px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.item {
+  width: 200px;
+  margin-right: 50px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.item:hover {
+  transform: scale(1.1);
+}

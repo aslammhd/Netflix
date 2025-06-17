@@ -1,0 +1,36 @@
+.faq {
+  padding: 40px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.item {
+  margin-bottom: 15px;
+  border: 1px solid #333;
+  background: #222;
+}
+
+.item button {
+  width: 100%;
+  background: none;
+  color: white;
+  border: none;
+  padding: 15px;
+  text-align: left;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  padding: 0 15px;
+}
+
+.show {
+  max-height: 500px;
+  padding: 15px;
+}
