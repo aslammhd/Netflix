@@ -97,8 +97,10 @@
   font-size: 18px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .getStarted:hover {
   background-color: #b00610; // darker red on hover
+  transform: scale(1.1);
 }

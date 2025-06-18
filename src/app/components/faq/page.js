@@ -1,8 +1,8 @@
 'use client';
 import { useState } from 'react';
 import styles from '../styles/FAQ.module.scss';
-import Email from './Email';
-import faqData from '../db/faqData';
+import Email from '../email/page';
+import faqData from '../../db/faqData';
 
 export default function FAQ() {
   const [openIndex, setOpenIndex] = useState(null);

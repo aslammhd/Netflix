@@ -1,11 +1,11 @@
 'use client';
 
 
-import Email from './components/Email';
-import FAQ from './components/Faq';
-import Footer from './components/Footer';
-import Header from './components/Header';
-import Trending from './components/Trending';
+import Email from './components/email/page';
+import FAQ from './components/faq/page';
+import Footer from './components/footer/page';
+import Header from './components/header/page';
+import Trending from './components/trending/page';
 
 
 export default function HomePage() {
@@ -14,7 +14,7 @@ export default function HomePage() {
       <Header />
       <Trending />
       <FAQ />
-      <Email />
+       <Email />
       <Footer />
     </>
   );

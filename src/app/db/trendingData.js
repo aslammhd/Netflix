@@ -1,7 +1,3 @@
-'use client';
-
-import styles from '../styles/Trending.module.scss';
-
 const trendingItems = [
   { id: 1, title: 'The Rookie', img: '/trending/rookie.jpg' },
   { id: 2, title: 'The Royals', img: '/trending/royals.jpg' },
@@ -17,15 +13,4 @@ const trendingItems = [
 
 ];
 
-export default function Trending() {
-  return (
-    <div className={styles.trending}>
-      <h2>Trending Now</h2>
-      <div className={styles.list}>
-        {trendingItems.map(item => (
-            <img key={item.id} src={item.img} alt={item.title} className={styles.item} />
-        ))}
-      </div>
-    </div>
-  );
-}
+export default trendingItems

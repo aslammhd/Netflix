@@ -1,6 +1,6 @@
 'use client';
 import styles from '../styles/Header.module.scss';
-import Email from './Email';
+import Email from '../email/page';
 
 export default function Header() {
   return (
@@ -11,7 +11,7 @@ export default function Header() {
           <div className={styles.right}>
             <select className={styles.language}>
               <option value="en">English</option>
-              <option value="hi">Hindi</option>
+              <option value="hi">हिन्दी </option>
             </select>
             <button className={styles.signIn}>Sign In</button>
           </div>
@@ -21,8 +21,8 @@ export default function Header() {
           <h2>Starts at ₹149. Cancel at any time.</h2>
          <Email />
 
-        </div>
-      </div>
+        </div>  
+      </div>  
     </div>
   );
 }

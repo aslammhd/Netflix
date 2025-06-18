@@ -8,10 +8,20 @@
   overflow-x: scroll;
   overflow-y: hidden;
 }
+.idText{
+  font-size: 90px;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+  position: absolute;
+  top: 65px;
+  right: 170px;
+}
 
 .item {
   width: 200px;
   margin-right: 50px;
+  position: relative;
   transition: transform 0.3s ease;
   cursor: pointer;
 }
